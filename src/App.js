@@ -125,7 +125,7 @@ function App() {
           <span>
             제작 기간 : `22.09.22 ~ 10.10{" "}
             <a
-              href="https://github.com/SonMinSeock/spark_app"
+              href="https://github.com/IMagine-Systems/MATE.movility"
               className={classes["git-icon"]}
             >
               <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1629972215/noticon/vgvbhxae6jrvqpcnu0vb.png" />
@@ -141,7 +141,7 @@ function App() {
           <span>
             제작 기간 : `22.06.22 ~ 06.24{" "}
             <a
-              href="https://github.com/SonMinSeock/spark_app"
+              href="https://github.com/park-se-jun/DM-frontend"
               className={classes["git-icon"]}
             >
               <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1629972215/noticon/vgvbhxae6jrvqpcnu0vb.png" />
