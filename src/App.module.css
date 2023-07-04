@@ -1,0 +1,178 @@
+h3 {
+  margin: 0;
+  padding: 0.6rem;
+}
+section h3 {
+  text-align: center;
+}
+
+.profile {
+  padding-top: 5.5rem;
+  padding-bottom: 3rem;
+  background-color: #c3cfe2;
+}
+.profile .bold {
+  font-weight: bold;
+}
+.profile div {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+}
+
+.aboutme img {
+  width: 100%;
+}
+
+.aboutme {
+  font-size: 0.8rem;
+  padding: 2rem 2rem;
+}
+
+.skills {
+  background-color: #c3cfe2;
+}
+
+.skills div {
+  text-align: center;
+}
+
+.skills__title {
+  display: block;
+  margin-bottom: 5rem;
+}
+
+.skills__print {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__print img {
+  width: 100px;
+  margin-bottom: 0.8rem;
+}
+
+.skills__print:last-child span {
+  margin-bottom: 5rem;
+}
+.skills__print span {
+  margin-bottom: 0.8rem;
+}
+
+.works {
+  padding: 2rem 2rem;
+}
+
+.works h3 {
+  text-align: center;
+}
+
+.works div {
+  margin-bottom: 2rem;
+}
+
+.works .work__img {
+  display: flex;
+  flex-direction: column;
+}
+
+.work__img img {
+  width: 100%;
+  margin-bottom: 0.6rem;
+}
+
+.git-icon img {
+  width: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #e2ebf0;
+  padding: 2rem;
+}
+
+footer span {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+footer img {
+  width: 1.5rem;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+@media (min-width: 40rem) {
+  .profile img {
+    width: 250px;
+    height: 250px;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .profile {
+    padding-top: 7.5rem;
+    padding-bottom: 5rem;
+  }
+  .desktop__aboutme .aboutme__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .aboutme {
+    font-size: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .aboutme div {
+    display: flex;
+  }
+  .aboutme div div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutme img {
+    width: 240px;
+    margin-right: 1.2rem;
+  }
+  .skills {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .skills div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills__title {
+    margin-bottom: 2rem;
+  }
+
+  .skills__print:last-child span {
+    margin-bottom: 0.8rem;
+  }
+  .works div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h3 {
+    margin-bottom: 1.3rem;
+  }
+
+  .work__img {
+    width: 360px;
+  }
+
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
