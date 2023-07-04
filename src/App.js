@@ -30,12 +30,12 @@ function App() {
         <h3>ABOUT ME</h3>
         <div className={classes["desktop__aboutme"]}>
           <div>
-            <div className={classes.aboutme__img}>
+            <div className={classes["aboutme__img"]}>
               <img src={aboutMeImg} />
               <img src={studyImg} />
             </div>
 
-            <p>
+            <p className={classes.bold}>
               안녕하세요, 함께 나아가고 배움에 두렵지 않은 프론트엔드 개발
               지원자 손민석 입니다.
             </p>
