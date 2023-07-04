@@ -1,5 +1,5 @@
 import Nav from "./components/UI/Nav";
-import profileImg from "./img/손민석_이력서사진.jpg";
+import profileImg from "./img/profile.jpg";
 import classes from "./App.module.css";
 import aboutMeImg from "./img/about_me.png";
 import sparkFirstImg from "./img/spark_instar_first.png";
